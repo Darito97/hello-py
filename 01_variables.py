@@ -12,3 +12,6 @@ print(my_boolean_variable)
 my_Array_variable = [1,3,4,6]
 print(my_Array_variable)
 
+
+# Para imprimir varias cosas podemos ingresar una coma en el print
+print(my_int_variable, my_string_variable, my_boolean_variable, my_Array_variable);
