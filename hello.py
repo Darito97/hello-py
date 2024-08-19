@@ -26,3 +26,8 @@ print(arreglo);
 # Diccionarios en py
 diccionario = {"nombre": "David", "edad": 22};
 print(diccionario);
+
+# Chequeo de tipos de datos
+print(type(1));
+print(type("Hola"));
+print(type(True));
