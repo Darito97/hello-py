@@ -11,6 +11,10 @@ Los comentarios multilinea tambien pueden ir entre tres comillas simples
 '''
 
 # Existen numeros enteros, numeros decimales y numeros complejos
-print(1) # entero
-print(1.01) # decimal
-print(1 + 2j) # complejo
+print(1); # entero
+print(1.01); # decimal
+print(1 + 2j); # complejo
+
+# Otro tipo de dato son los boleanos
+print(True);
+print(False);
