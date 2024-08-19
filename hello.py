@@ -18,3 +18,8 @@ print(1 + 2j); # complejo
 # Otro tipo de dato son los boleanos
 print(True);
 print(False);
+
+# Arreglos en python
+arreglo = [1,2,3,4,5,6];
+print(arreglo);
+
