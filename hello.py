@@ -23,3 +23,6 @@ print(False);
 arreglo = [1,2,3,4,5,6];
 print(arreglo);
 
+# Diccionarios en py
+diccionario = {"nombre": "David", "edad": 22};
+print(diccionario);
