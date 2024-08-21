@@ -3,6 +3,12 @@
 my_int_variable = 1
 print(my_int_variable)
 
+my_int_to_string = str(my_int_variable)
+print(type(my_int_to_string))
+
+my_string_to_int = int(my_int_to_string);
+print(type(my_string_to_int))
+
 my_string_variable = "Hola"
 print(my_string_variable)
 
