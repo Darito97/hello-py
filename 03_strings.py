@@ -34,3 +34,9 @@ print(f)
 my_string_for_split = "Hola Python"
 my_first_word = my_string_for_split[0:4]
 print(my_first_word)
+
+
+### Darle la vuelta a un string ###
+
+my_string_reversed = my_string_for_split[::-1]
+print(my_string_reversed)
