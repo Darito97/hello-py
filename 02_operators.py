@@ -30,4 +30,8 @@ print(3 in [1,2,3,4,5]) ### Pertenencia
 print(3 not in [1,2,3,4]) ### Negación de pertenencia
 
 
+# Operadores lógicos
+print(3 == 4 and 3 != 4) ### AND o y
+print(3 == 4 or 3 != 4) ### OR o o
+print(not 3 == 4) ### NOT o no
 
