@@ -28,3 +28,9 @@ a, b, c, d, e, f = language
 print(a)
 print(b)
 print(f)
+
+### División de strings ###
+
+my_string_for_split = "Hola Python"
+my_first_word = my_string_for_split[0:4]
+print(my_first_word)
