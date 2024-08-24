@@ -20,3 +20,4 @@ name, surname, age = "David", "Alonso", 27
 
 print("Mi nombre es %s %s y tengo %s años" %(name, surname, age))
 print("Mi nombre es {} {} y tengo {} años".format(name, surname, age))
+print(f"Mi nombre es {name} {surname} y tengo {age} años") # Python 3.6 en adelante
