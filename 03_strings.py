@@ -42,3 +42,20 @@ my_string_reversed = my_string_for_split[::-1]
 print(my_string_reversed)
 
 
+### Algunos metodos integrados en strings ###
+
+my_string = "Hola py"
+
+print(my_string.upper()) # Convertir a mayúsculas
+print(my_string.lower()) # Convertir a minúsculas
+print(my_string.capitalize()) # Convertir la primera letra a mayúscula
+print(my_string.replace('py', 'PY')) # Remplazar una cadena por otra 
+print(my_string.count('o')) # Contar cuantas veces aparece una letra
+print(my_string.startswith('H')) # Comprobar si empieza por una letra
+print(my_string.endswith('y')) # Comprobar si termina por una letra
+print(my_string.split(' ')) # Dividir una cadena por un caracter
+print(my_string.find('a')) # Encontrar la posición de un caracter
+print(my_string.index('a')) # Encontrar la posición de un caracter
+print(my_string.upper().isupper()) # Comprobar si es mayúscula
+
+
