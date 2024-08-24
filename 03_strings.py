@@ -40,3 +40,5 @@ print(my_first_word)
 
 my_string_reversed = my_string_for_split[::-1]
 print(my_string_reversed)
+
+
