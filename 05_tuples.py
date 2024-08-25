@@ -34,3 +34,7 @@ print(my_tuple + my_tuple2)
 
 # Slice de una tupla
 print(my_tuple[0:2])
+
+# Convertir una tupla a lista
+my_list = list(my_tuple)
+print(my_list, type(my_list))
