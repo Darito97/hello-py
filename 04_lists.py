@@ -49,4 +49,29 @@ print(my_list + my_list2)
 my_list.append("DaroDev")
 print(my_list)
 
+# Insertar un elemento en un lugar especifico
+my_list.insert(2, "Python")
+print(my_list)
+
+# Remover un elemento
+my_list.remove("Python")
+print(my_list)
+
+
+# Remover un elemento con del por indice
+my_list.append("Python")
+del my_list[4]
+print(my_list)
+
+# Remover el último elemento
+print("Elemento que se eliminará: "+ my_list.pop())
+print(my_list)
+
+# Copiar una lista
+my_new_list = my_list.copy()
+print(my_new_list, my_list)
+
+# Limpiar una lista
+my_list.clear()
+print(my_list)
 
