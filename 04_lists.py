@@ -75,3 +75,8 @@ print(my_new_list, my_list)
 my_list.clear()
 print(my_list)
 
+# Ordenar una lista
+my_list = [5,2,7,8,4,1]
+print(my_list)
+my_list.sort()
+print(my_list)
