@@ -28,3 +28,6 @@ print(my_tuple.index(27))
 # Las tuplas son más seguras que las listas
 # Las tuplas son usadas para proteger los datos de la modificación
 
+# Unir tuplas
+my_tuple2 = (5,6,7,8)
+print(my_tuple + my_tuple2)
