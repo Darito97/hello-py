@@ -38,3 +38,10 @@ print(my_tuple[0:2])
 # Convertir una tupla a lista
 my_list = list(my_tuple)
 print(my_list, type(my_list))
+
+# Convertir una lista a tupla
+my_tuple3 = tuple(my_list)
+print(my_tuple3, type(my_tuple3))
+
+# Lo anterior nos sirve para volver a la tupla en determinados casos una lista mutable y 
+# luego volverla tupla de nuevo para evitar problemas
