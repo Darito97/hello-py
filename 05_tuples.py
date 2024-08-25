@@ -31,3 +31,6 @@ print(my_tuple.index(27))
 # Unir tuplas
 my_tuple2 = (5,6,7,8)
 print(my_tuple + my_tuple2)
+
+# Slice de una tupla
+print(my_tuple[0:2])
