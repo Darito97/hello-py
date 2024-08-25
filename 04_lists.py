@@ -31,3 +31,22 @@ print(my_list[2])
 # Si accedemos a un índice negativo, se accede a la lista de derecha a izquierda
 print(my_list[-2])
 
+# Saber cuantos elementos de un dato hay en una lista
+print(my_list.count("David"))
+
+# Obtener elementos de una lista y asignarles un nombre 
+# Para hacer esto se necesita definir nombres para todos los elementos a obtener
+age, name, height = my_list
+print(age, name, height)
+
+
+# Unir listas
+my_list2 = [5,6,7,8]
+print(my_list + my_list2)
+
+
+# Añadir un elemento
+my_list.append("DaroDev")
+print(my_list)
+
+
