@@ -39,4 +39,16 @@ del my_other_set2
 my_list = list(my_other_set)
 print(my_list, type(my_list))
 
+# Lo anterior nos permite manejar los datos como un list y luego podemos volver a convertirlo en un set
+
+my_set2 = set(my_list)
+print(my_set2, type(my_set2))
+
+# Unir dos sets
+my_set3 = { "David", 1.78}
+my_set4 = {1, 27}
+
+my_set_union = my_set3.union(my_set4)
+print(my_set_union)
+
 
