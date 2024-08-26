@@ -28,3 +28,8 @@ print(my_dict)
 # Agregar un nuevo par clave-valor
 my_dict["company"] = "DaroDev"
 print(my_dict)
+
+# Eliminar un par clave-valor
+del my_dict["company"]
+print(my_dict)
+
