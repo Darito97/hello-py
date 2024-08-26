@@ -51,4 +51,11 @@ my_set4 = {1, 27}
 my_set_union = my_set3.union(my_set4)
 print(my_set_union)
 
+# Intersección de dos sets
+my_set_intersection = my_other_set.intersection(my_set3)
+print(my_set_intersection)
+
+# Diferencia de dos sets
+my_set_difference = my_other_set.difference(my_set3)
+print(my_set_difference)
 
