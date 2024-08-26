@@ -19,5 +19,12 @@ print(len(my_dict))
 
 
 # Acceder a uno de los valores por clave
-
 print(my_dict["name"])
+
+# Cambiar el valor de una clave en especifico
+my_dict["name"] = "David Alonso"
+print(my_dict)
+
+# Agregar un nuevo par clave-valor
+my_dict["company"] = "DaroDev"
+print(my_dict)
