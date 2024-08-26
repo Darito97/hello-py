@@ -35,3 +35,9 @@ print(my_dict)
 
 # Comprobar un clave en un diccionario
 print("name" in my_dict)
+
+# Limpiar un diccionario
+my_dict2 = my_dict.copy()
+print(my_dict2)
+my_dict2.clear()
+print(my_dict2)
