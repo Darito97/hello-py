@@ -41,3 +41,12 @@ my_dict2 = my_dict.copy()
 print(my_dict2)
 my_dict2.clear()
 print(my_dict2)
+
+# Obtener los valores de un diccionario
+print(my_dict.values())
+
+# Obtener las claves de un diccionario
+print(my_dict.keys())
+
+# Obtener los pares clave-valor de un diccionario
+print(my_dict.items())
