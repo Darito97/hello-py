@@ -31,7 +31,12 @@ print(my_other_set2)
 my_other_set2.clear()
 print(my_other_set2)
 
-
 # Borrar completamente un set, despues de esto ya no se puede acceder a la misma
 del my_other_set2
+
+# Transformar un set en list
+
+my_list = list(my_other_set)
+print(my_list, type(my_list))
+
 
