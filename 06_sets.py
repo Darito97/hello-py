@@ -30,3 +30,8 @@ my_other_set2 = my_other_set.copy()
 print(my_other_set2)
 my_other_set2.clear()
 print(my_other_set2)
+
+
+# Borrar completamente un set, despues de esto ya no se puede acceder a la misma
+del my_other_set2
+
