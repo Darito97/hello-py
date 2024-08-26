@@ -33,3 +33,5 @@ print(my_dict)
 del my_dict["company"]
 print(my_dict)
 
+# Comprobar un clave en un diccionario
+print("name" in my_dict)
