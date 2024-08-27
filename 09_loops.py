@@ -87,3 +87,15 @@ for element in my_list:
 else:
     print("Fin del ciclo for con else")
     
+    
+# For con continue
+my_list = [1,2,3,4,5]
+
+for element in my_list:
+    if element == 3:
+        continue
+    print(element)
+else:
+    print("Fin del ciclo for con continue")
+    
+
