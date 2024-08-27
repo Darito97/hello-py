@@ -43,3 +43,43 @@ else:
     print("El número es 15")
 
 print("Fin de la condición de diferente")
+
+
+# Condicional con and
+
+my_number = 15
+
+if my_number > 0 and my_number == 15:
+    print("El número es mayor que 0 y es 15")
+else:
+    print("El número no es mayor que 0 o no es 15")
+
+print("Fin de la condición de and")
+
+# Condicional con or
+my_number = -15
+
+if my_number < 0 or my_number == 15:
+    print("El número es menor que 0 o es 15")
+else:
+    print("El número no es menor que 0 o no es 15")
+    
+print("Fin de la condición de or")
+
+
+# Condicional if con elif y else
+
+my_number = 15
+
+if my_number < 0:
+    print("El número es menor que 0")
+elif my_number == 0:
+    print("El número es 0")
+elif my_number == 15:
+    print("El número es 15")
+else:
+    print("El número es mayor que 0, diferente de 0 y diferente de 15")
+
+print("Fin de la condición if-elif-else")
+
+
