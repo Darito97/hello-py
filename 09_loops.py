@@ -26,7 +26,6 @@ print("Fin del ciclo for")
 
 # Ciclo while con condicionales
 
-
 my_number = 12
 
 while my_number > 0:
@@ -37,3 +36,15 @@ while my_number > 0:
     my_number -= 1
     
 print("Fin del ciclo while con condicionales")
+
+
+my_dict = {
+    "name": "David",
+    "age": 27,
+    "Height": 1.78
+}
+
+for key, value in my_dict.items():
+    print(key+": "+str(value))
+    
+print("Fin del ciclo for con diccionarios")
