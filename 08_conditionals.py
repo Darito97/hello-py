@@ -83,3 +83,15 @@ else:
 print("Fin de la condición if-elif-else")
 
 
+# Condicional con strings
+
+my_string = "Hola"
+
+if my_string == "David":
+    print("Hola David")
+elif my_string == "Hola":
+    print("Hola general")
+else:
+    print("Hola desconocido")
+    
+print("Fin de la condición con strings")
