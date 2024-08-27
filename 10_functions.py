@@ -41,6 +41,6 @@ say_hi("David", "Alonso")
 
 def print_texts(*texts):
     for text in texts:
-        print(text)
+        print(text.upper())
     
 print_texts("Hola", "Mundo", "Desde", "Python")
