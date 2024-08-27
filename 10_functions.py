@@ -27,3 +27,11 @@ def sum2(a=0, b=5):
 # Llamar una función con argumentos por defecto
 
 print(sum2(4))
+
+
+# Función con argumentos que concatena un nombre e imprime
+
+def say_hi(name, last_name):
+    print(f"Hola {name} {last_name}")
+    
+say_hi("David", "Alonso")
