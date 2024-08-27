@@ -35,3 +35,12 @@ def say_hi(name, last_name):
     print(f"Hola {name} {last_name}")
     
 say_hi("David", "Alonso")
+
+
+# Función con argumentos 
+
+def print_texts(*texts):
+    for text in texts:
+        print(text)
+    
+print_texts("Hola", "Mundo", "Desde", "Python")
