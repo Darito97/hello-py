@@ -58,3 +58,32 @@ for element in my_set:
     print(element)
 
 print("Fin del ciclo for con sets")
+
+# While con break
+my_number = 10
+
+while my_number > 0:
+    print(my_number)
+    my_number -= 1
+    if my_number == 5:
+        break
+
+print("Fin del ciclo while con break")
+ 
+
+# Else con ciclos
+my_number = 10
+
+while my_number > 0:
+    print(my_number)
+    my_number -= 1
+else: 
+    print("Fin del ciclo while con else")
+    
+my_list = [1,2,3,4,5]
+
+for element in my_list:
+    print(element)
+else:
+    print("Fin del ciclo for con else")
+    
