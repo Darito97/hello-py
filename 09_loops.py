@@ -48,3 +48,13 @@ for key, value in my_dict.items():
     print(key+": "+str(value))
     
 print("Fin del ciclo for con diccionarios")
+
+
+# For con sets
+
+my_set = {1,2,3,4,5}
+
+for element in my_set:
+    print(element)
+
+print("Fin del ciclo for con sets")
